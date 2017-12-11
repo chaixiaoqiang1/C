@@ -1,21 +1,23 @@
-//ÖĞÎÄÃüÃûÎÄ¼ş¿ÉÒÔÊ¹ÓÃ
+//ä¸­æ–‡å‘½åæ–‡ä»¶å¯ä»¥ä½¿ç”¨
 #include<stdlib.h>
 #include<stdio.h>
 
 void main(){
-	//system("explorer.exe");//ÎÄ¼ş¹ÜÀíÆ÷
-	//system("explorer.exe C:"); //´ò¿ªCÅÌÄ¿Â¼
-	//system("explorer.exe C:\\Users\\chai\\Desktop\\ThinkPHP"); //´ò¿ªÄ¿Â¼ ·´Ğ±¸ÜĞè×ªÒå
-	//system("\"D:\\Ruanjian_2017\\WeChat\\WeChat.exe\""); //´ò¿ªÓ¦ÓÃ³ÌĞòµÄ·½Ê½
-	//system("D:\\Ruanjian_2017\\WeChat\\WeChat.exe"); // ÕâÑùÒ²ÊÇ¿ÉÒÔ´ò¿ªµÄ£¬Èç¹û´ò²»¿ªÊ¹ÓÃ¼ÓÒıºÅ×ªÒå·½Ê½
-	//system("C:\\Users\\chai\\Desktop\\¹ã¸æÒµÎñĞèÇó.txt");//´ò¿ªÒ»¸öÎÄ¼ş
-	system("\"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\"  www.qq.com");//ä¯ÀÀÆ÷´ò¿ªÒ»¸öÍøÕ¾
+	//system("explorer.exe");//æ–‡ä»¶ç®¡ç†å™¨
+	//system("explorer.exe C:"); //æ‰“å¼€Cç›˜ç›®å½•
+	//system("explorer.exe C:\\Users\\chai\\Desktop\\ThinkPHP"); //æ‰“å¼€ç›®å½• åæ–œæ éœ€è½¬ä¹‰
+	//system("\"D:\\Ruanjian_2017\\WeChat\\WeChat.exe\""); //æ‰“å¼€åº”ç”¨ç¨‹åºçš„æ–¹å¼
+	//system("D:\\Ruanjian_2017\\WeChat\\WeChat.exe"); // è¿™æ ·ä¹Ÿæ˜¯å¯ä»¥æ‰“å¼€çš„ï¼Œå¦‚æœæ‰“ä¸å¼€ä½¿ç”¨åŠ å¼•å·è½¬ä¹‰æ–¹å¼
+	//system("C:\\Users\\chai\\Desktop\\å¹¿å‘Šä¸šåŠ¡éœ€æ±‚.txt");//æ‰“å¼€ä¸€ä¸ªæ–‡ä»¶
+	system("\"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\"  www.qq.com");//æµè§ˆå™¨æ‰“å¼€ä¸€ä¸ªç½‘ç«™
 	system("pause");
-	system("taskkill /f /im chrome.exe");  //½áÊøÓ¦ÓÃµÄ½ø³Ì
+	system("taskkill /f /im chrome.exe");  //ç»“æŸåº”ç”¨çš„è¿›ç¨‹
 }
 
 
-
+void main(){  //voidä¸ºç©ºï¼Œè¿”å›å€¼ä¸ºç©º mainå‡½æ•°ï¼Œ()è¾“å…¥ï¼Œ{}æ•°æ®çš„åŠ å·¥
+	
+}
 
 
 
